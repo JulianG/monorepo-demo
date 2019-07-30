@@ -12,19 +12,3 @@ yarn install
 yarn watch
 ```
 The "watch" script watches changes in all packages. Any changes result in hot reloading.
-
-```
-root
-  - packages
-    - app
-      - src
-      - package.json
-      - tsconfig.json
-    - math-functions
-      - src
-      - package.json
-      - tsconfig.json
-  - package.json
-  - yarn.lock
-  - lerna.json
-```
