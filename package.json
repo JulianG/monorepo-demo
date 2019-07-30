@@ -1,0 +1,17 @@
+{
+  "name": "typescript-monorepo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "watch": "lerna run --parallel watch"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "author": "JulianG",
+  "license": "ISC"
+}
