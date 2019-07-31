@@ -12,3 +12,7 @@ yarn install
 yarn watch
 ```
 The "watch" script watches changes in all packages. Any changes result in hot reloading.
+
+----
+
+I wrote a blog post about this https://juliangaramendy.dev/monorepo-demo/
